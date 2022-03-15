@@ -1,0 +1,96 @@
+.labelDatos {
+  float: left;
+  color: #000 !important;
+}
+
+.comboboxDatos {
+  width: 300px;
+  float: left;
+}
+
+.circleGreen {
+  border: 0.1em solid black;
+  border-radius: 100%;
+  height: 7em;
+  width: 7em;
+  text-align: center;
+  vertical-align: middle;
+  background-color: green;
+  visibility: visible;
+}
+
+.circleGreen p {
+  margin-top: 33%;
+  font-size: 1.7em;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+  visibility: visible;
+}
+
+.circleRed {
+  border: 0.1em solid black;
+  border-radius: 100%;
+  height: 7em;
+  width: 7em;
+  text-align: center;
+  background-color: red;
+  visibility: visible;
+}
+
+.circleRed p {
+  margin-top: 33%;
+  font-size: 1.7em;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+  visibility: visible;
+}
+
+.circleOrange {
+  border: 0.1em solid black;
+  border-radius: 100%;
+  height: 7em;
+  width: 7em;
+  text-align: center;
+  vertical-align: middle;
+  background-color: orange;
+  visibility: visible;
+}
+
+.circleOrange p {
+  margin-top: 33%;
+  font-size: 1.7em;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+  visibility: visible;
+}
+
+.circleHidden,
+.circleHidden p {
+  visibility: hidden;
+}
+
+#Loaded {
+  background: #1976d2;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+#stillLoading {
+  background: grey;
+  font-weight: 700;
+}
+
+#playerEntrenamiento {
+  margin-top: 2em;
+}
+
+#linearProgressBar {
+  width: 493px;
+}
+
+.MuiLinearProgress-root {
+  left: 5em !important;
+}
